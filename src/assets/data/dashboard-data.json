@@ -1,0 +1,79 @@
+{
+  "salesData": {
+    "title": "Monthly Sales",
+    "type": "bar",
+    "data": [
+      {"name": "Jan", "value": 42000},
+      {"name": "Feb", "value": 38000},
+      {"name": "Mar", "value": 55000},
+      {"name": "Apr", "value": 47000},
+      {"name": "May", "value": 65000},
+      {"name": "Jun", "value": 72000},
+      {"name": "Jul", "value": 68000},
+      {"name": "Aug", "value": 53000},
+      {"name": "Sep", "value": 49000},
+      {"name": "Oct", "value": 58000},
+      {"name": "Nov", "value": 63000},
+      {"name": "Dec", "value": 89000}
+    ]
+  },
+  "userEngagement": {
+    "title": "User Engagement Metrics",
+    "type": "line",
+    "data": [
+      {"name": "Week 1", "series": [
+        {"name": "Active Users", "value": 2500},
+        {"name": "New Signups", "value": 450},
+        {"name": "Returning Users", "value": 2050}
+      ]},
+      {"name": "Week 2", "series": [
+        {"name": "Active Users", "value": 2700},
+        {"name": "New Signups", "value": 480},
+        {"name": "Returning Users", "value": 2220}
+      ]},
+      {"name": "Week 3", "series": [
+        {"name": "Active Users", "value": 3100},
+        {"name": "New Signups", "value": 520},
+        {"name": "Returning Users", "value": 2580}
+      ]},
+      {"name": "Week 4", "series": [
+        {"name": "Active Users", "value": 3500},
+        {"name": "New Signups", "value": 580},
+        {"name": "Returning Users", "value": 2920}
+      ]}
+    ]
+  },
+  "marketShare": {
+    "title": "Market Share Distribution",
+    "type": "pie",
+    "data": [
+      {"name": "Product A", "value": 35},
+      {"name": "Product B", "value": 25},
+      {"name": "Product C", "value": 20},
+      {"name": "Product D", "value": 15},
+      {"name": "Others", "value": 5}
+    ]
+  },
+  "performanceMetrics": {
+    "title": "System Performance",
+    "type": "gauge",
+    "data": [
+      {"name": "CPU Usage", "value": 78},
+      {"name": "Memory Usage", "value": 65},
+      {"name": "Disk Space", "value": 42},
+      {"name": "Network Traffic", "value": 89}
+    ]
+  },
+  "revenueByRegion": {
+    "title": "Revenue by Region",
+    "type": "advanced-pie",
+    "data": [
+      {"name": "North America", "value": 560000},
+      {"name": "Europe", "value": 350000},
+      {"name": "Asia", "value": 280000},
+      {"name": "South America", "value": 190000},
+      {"name": "Africa", "value": 120000},
+      {"name": "Australia", "value": 100000}
+    ]
+  }
+} 

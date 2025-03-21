@@ -1,0 +1,36 @@
+/* You can add global styles to this file, and also import other style files */
+@import '@angular/material/prebuilt-themes/indigo-pink.css';
+
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.chart-container {
+  height: 100%;
+  width: 100%;
+}
+
+// Add responsive classes
+.responsive-container {
+  width: 100%;
+  padding: 16px;
+  box-sizing: border-box;
+}
+
+// Dark theme support
+.dark-theme {
+  background-color: #303030;
+  color: #fff;
+}
+
+// Animation classes
+.fade-in {
+  animation: fadeIn 0.5s ease-in;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
